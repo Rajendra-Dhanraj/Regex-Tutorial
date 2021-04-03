@@ -34,11 +34,18 @@ Traditional email addresses contain a username, @ symbol, domain.
 
 ### Anchors
 
-The RegEx expression is contained in "Anchors," they are used at the beginning and ending of Regular Expression as shown below:
+RegEx expressions are contained in "Anchors," they are used at the beginning and ending of Regular Expression as shown below:
 
 `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 
 ### Quantifiers
+
+Quantifiers are used within the RegEx expression in order to specify: amount of characters, groups or character classes for a match to be fufilled. Quantifiers are represented by: +, *, ?, {}.
+
+The highlighted portion of the expression below represents the quantifiers. The highlighted text indicates " match between 2 and 6 of the group. The "group" indentifies letters between "a" and "z."
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]`{2,6}`)$/
+
 
 ### OR Operator
 
