@@ -20,7 +20,6 @@ Traditional email addresses contain a username, @ symbol, domain.
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
@@ -46,20 +45,27 @@ The highlighted portion of the expression below represents the quantifiers. The 
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]`{2,6}`)$/
 
-
-### OR Operator
-
 ### Character Classes
 
-### Flags
+Character classes define the possible characters that can be searched. As highlighted below, there are many different classes which we will explore:
 
-### Grouping and Capturing
+a-z : Matches any character between a and z.
+0-9 : Matches any number from 0-9.
+_ : Matches "_" character.
+\. : Matches "." character.
+- : Matches "-" character.
+\d : Matches any digit character.
 
-### Bracket Expressions
 
-### Greedy and Lazy Match
+/^(`[a-z0-9_\.-]`+)@([`\da-z\.-`]+)\.(`[a-z\.`]{2,6})$/
 
-### Boundaries
+
+
+### Grouping and Capturing yes
+
+### Bracket Expressions yes
+
+### Greedy and Lazy Match 
 
 ### Back-references
 
