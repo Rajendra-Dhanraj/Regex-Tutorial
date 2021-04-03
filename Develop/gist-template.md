@@ -34,7 +34,7 @@ Traditional email addresses contain a username, @ symbol, domain.
 
 ### Anchors
 
-The RegEx expression is contained in "Anchors." 
+The RegEx expression is contained in "Anchors," they are used at the beginning and ending of Regular Expression as shown below:
 
 `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 
