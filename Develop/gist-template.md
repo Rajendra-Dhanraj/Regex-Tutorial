@@ -36,8 +36,7 @@ Traditional email addresses contain a username, @ symbol, domain.
 
 The RegEx expression is contained in "Anchors." 
 
-
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+**/^**([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})**$/**
 
 ### Quantifiers
 
