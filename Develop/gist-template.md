@@ -49,12 +49,12 @@ The highlighted portion of the expression below represents the quantifiers. The 
 
 Character classes define the possible characters that can be searched. As highlighted below, there are many different classes which we will explore:
 
-a-z : Matches any character between a and z.
-0-9 : Matches any number from 0-9.
-_ : Matches "_" character.
-\. : Matches "." character.
-- : Matches "-" character.
-\d : Matches any digit character.
+`a-z` : Matches any character between a and z.
+`0-9` : Matches any number from 0-9.
+`_` : Matches "_" character.
+`\.` : Matches "." character.
+`-` : Matches "-" character.
+`\d` : Matches any digit character.
 
 
 /^(`[a-z0-9_\.-]`+)@([`\da-z\.-`]+)\.(`[a-z\.`]{2,6})$/
