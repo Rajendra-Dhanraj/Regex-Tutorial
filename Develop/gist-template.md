@@ -12,7 +12,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 We will be examining a Regular Expression used to validate an email address as follows:
 
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+**/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/**
 
 Traditional email addresses contain a username, @ symbol, domain. 
 
@@ -33,6 +33,11 @@ Traditional email addresses contain a username, @ symbol, domain.
 ## Regex Components
 
 ### Anchors
+
+The RegEx expression is contained in "Anchors." 
+
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ### Quantifiers
 
