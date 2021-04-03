@@ -54,7 +54,7 @@ Character classes define the possible characters that can be searched. As highli
 * `\d` : Matches any digit character.
 
 
-/^(`[a-z0-9_\.-]`+)@([`\da-z\.-`]+)\.(`[a-z\.`]{2,6})$/
+/^(`[a-z0-9_\.-]`+)@(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})$/
 
 ### Grouping and Capturing
 
