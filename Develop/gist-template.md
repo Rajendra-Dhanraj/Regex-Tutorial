@@ -21,13 +21,10 @@ Traditional email addresses contain a username, @ symbol, domain.
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
 - [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -59,17 +56,13 @@ Character classes define the possible characters that can be searched. As highli
 
 /^(`[a-z0-9_\.-]`+)@([`\da-z\.-`]+)\.(`[a-z\.`]{2,6})$/
 
+### Grouping and Capturing
 
-
-### Grouping and Capturing yes
-
-### Bracket Expressions yes
+### Bracket Expressions
 
 ### Greedy and Lazy Match 
 
 ### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
