@@ -74,7 +74,7 @@ Example:
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Created with ❤️ by Rajendra Dhanraj, aspiring Full Stack Web Developer studying at the University of Toronto.
 
 [GitHub Profile](https://github.com/Rajendra-Dhanraj)
 
