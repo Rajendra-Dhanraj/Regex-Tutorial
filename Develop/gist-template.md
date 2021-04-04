@@ -57,6 +57,8 @@ Character classes define the possible characters that can be searched. As highli
 
 Capturing allows the collection within the `()` to treat more than one character as a single group.
 
+/^`([a-z0-9_\.-]+)`@`([\da-z\.-]+)`\.`([a-z\.]{2,6})`$/
+
 ### Bracket Expressions
 
 Matches a single character contained within `[]`. Matching any single character within the brackets. When the first character in the square brackets is a `"^"` the opposite premise is created, meaning anything not in the list will be matched. 
