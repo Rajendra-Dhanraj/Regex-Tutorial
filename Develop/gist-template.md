@@ -69,8 +69,11 @@ Example:
  
 ### Greedy and Lazy Match 
 
-* **Greedy Search** will try to match the longest possible string, only giving back as neccessary to match the remainder of the regex.
-* **Lazy Search** will try to match as few of the input characters possible and then proceed to the next token in the regular expression pattern.
+* **Greedy Search** will try to match the longest possible string, only giving back as neccessary to match the remainder of the regex. In our example expression, the greedy quantifier is denoted by a `+`.
+
+/^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]{2,6})$/
+
+* **Lazy Search** will try to match as few of the input characters possible and then proceed to the next token in the regular expression pattern. We do not have any lazy quantifiers in our example expression. 
 
 ## Author
 
