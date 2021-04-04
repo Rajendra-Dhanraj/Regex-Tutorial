@@ -23,8 +23,6 @@ Traditional email addresses contain a username, @ symbol, domain.
 - [Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Back-references](#back-references)
 
 ## Regex Components
 
@@ -32,7 +30,7 @@ Traditional email addresses contain a username, @ symbol, domain.
 
 RegEx expressions are contained in "Anchors," they are used at the beginning and ending of Regular Expression as shown below:
 
-`/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
+/`^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$`/
 
 ### Quantifiers
 
@@ -57,7 +55,7 @@ Character classes define the possible characters that can be searched. As highli
 
 ### Grouping and Capturing
 
-()
+Capturing allows the collection within the `()` to treat more than one character as a single group.
 
 ### Bracket Expressions
 
@@ -69,6 +67,9 @@ Example:
 * `[^abc]` : Matches characters that are NOT a, b, c.
  
 ### Greedy and Lazy Match 
+
+**Greedy Search** will try to match the longest possible string, only giving back as neccessary to match the remainder of the regex.
+**Lazy Search** will try to match as few of the input characters possible and then proceed to the next token in the regular expression pattern.
 
 ### Back-references
 
