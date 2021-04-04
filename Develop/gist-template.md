@@ -21,6 +21,7 @@ Traditional email addresses contain a username, @ symbol, domain.
 - [Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
+- [Greedy and Lazy Match](#greedy-and-lazy-match)
 
 ## Regex Components
 
