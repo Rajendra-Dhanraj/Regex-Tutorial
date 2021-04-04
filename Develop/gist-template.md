@@ -61,7 +61,7 @@ Character classes define the possible characters that can be searched. As highli
 
 ### Bracket Expressions
 
-Matches a single character contained within []. Matching any single character within the brackets. When the first character in the square brackets is a "^" the opposite premise is created, meaning anything not in the list will be matched. 
+Matches a single character contained within `[]`. Matching any single character within the brackets. When the first character in the square brackets is a `"^"` the opposite premise is created, meaning anything not in the list will be matched. 
 
 Example:
 
@@ -75,3 +75,6 @@ Example:
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
+[GitHub Profile](https://github.com/Rajendra-Dhanraj)
+
