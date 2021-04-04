@@ -46,20 +46,28 @@ The highlighted portion of the expression below represents the quantifiers. The 
 
 Character classes define the possible characters that can be searched. As highlighted below, there are many different classes which we will explore:
 
-* `a-z` : Matches any character between a and z.
-* `0-9` : Matches any number from 0-9.
+* `[a-z]` : Matches any character between a and z.
+* `[0-9]` : Matches any number from 0-9.
 * `_` : Matches "_" character.
 * `\.` : Matches "." character.
 * `-` : Matches "-" character.
 * `\d` : Matches any digit character.
 
-
 /^(`[a-z0-9_\.-]`+)@(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})$/
 
 ### Grouping and Capturing
 
+()
+
 ### Bracket Expressions
 
+Matches a single character contained within []. Matching any single character within the brackets. When the first character in the square brackets is a "^" the opposite premise is created, meaning anything not in the list will be matched. 
+
+Example:
+
+`[abc]` : Matches a, b, c characters.
+`[^abc]` : Matches characters that are NOT a, b, c.
+ 
 ### Greedy and Lazy Match 
 
 ### Back-references
