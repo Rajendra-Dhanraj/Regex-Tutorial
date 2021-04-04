@@ -65,8 +65,8 @@ Matches a single character contained within `[]`. Matching any single character 
 
 Example:
 
-`[abc]` : Matches a, b, c characters.
-`[^abc]` : Matches characters that are NOT a, b, c.
+* `[abc]` : Matches a, b, c characters.
+* `[^abc]` : Matches characters that are NOT a, b, c.
  
 ### Greedy and Lazy Match 
 
