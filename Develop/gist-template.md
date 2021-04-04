@@ -53,7 +53,7 @@ Character classes define the possible characters that can be searched. As highli
 
 ### Grouping and Capturing
 
-Capturing allows the collection within the `()` to treat more than one character as a single group.
+Capturing allows the collection within the `()` to treat more than one character as a single group. In our example below, each highlighted section is its own "Capturing Group," the expression contains (3) groups, which are numbered in order from left to right.
 
 /^`([a-z0-9_\.-]+)`@`([\da-z\.-]+)`\.`([a-z\.]{2,6})`$/
 
