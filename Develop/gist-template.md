@@ -76,5 +76,5 @@ Example:
 
 Created with ❤️ by Rajendra Dhanraj, aspiring Full Stack Web Developer studying at the University of Toronto.
 
-[GitHub Profile](https://github.com/Rajendra-Dhanraj)
+[Click to view my GitHub Profile!](https://github.com/Rajendra-Dhanraj)
 
