@@ -71,8 +71,6 @@ Example:
 * **Greedy Search** will try to match the longest possible string, only giving back as neccessary to match the remainder of the regex.
 * **Lazy Search** will try to match as few of the input characters possible and then proceed to the next token in the regular expression pattern.
 
-### Back-references
-
 ## Author
 
 Created with ❤️ by Rajendra Dhanraj, aspiring Full Stack Web Developer studying at the University of Toronto.
